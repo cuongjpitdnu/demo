@@ -1,7 +1,7 @@
 FROM php:8.1-fpm
 
 #Copy composer.lock and composer.json into the working directory
-COPY composer.lock composer.json /var/www/demo/
+# COPY composer.lock composer.json /var/www/demo/
 
 # set working directoty
 WORKDIR /var/www/demo
